@@ -181,6 +181,11 @@ header {
 .captcha-checkbox {
     position: relative;
     flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .captcha-checkbox input[type="checkbox"] {
@@ -190,8 +195,8 @@ header {
     border: 2px solid var(--border-color);
     border-radius: 3px;
     cursor: pointer;
-    position: relative;
     background: white;
+    margin: 0;
 }
 
 .captcha-checkbox input[type="checkbox"]:checked {
