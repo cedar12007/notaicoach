@@ -1,0 +1,4 @@
+ itUser-agent: *
+Allow: /
+
+Sitemap: https://www.notaicoach.com/sitemap.xml
